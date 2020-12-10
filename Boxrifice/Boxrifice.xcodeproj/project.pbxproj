@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		463152712580A26B00DE43A2 /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463152702580A26B00DE43A2 /* EndViewController.swift */; };
+		4631527C25812EB800DE43A2 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4631527B25812EB800DE43A2 /* InitialViewController.swift */; };
+		468438632578C6830016E8C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468438622578C6830016E8C5 /* AppDelegate.swift */; };
+		468438652578C6830016E8C5 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 468438642578C6830016E8C5 /* art.scnassets */; };
+		468438672578C6830016E8C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468438662578C6830016E8C5 /* ViewController.swift */; };
+		4684386A2578C6830016E8C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468438682578C6830016E8C5 /* Main.storyboard */; };
+		4684386C2578C6860016E8C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4684386B2578C6860016E8C5 /* Assets.xcassets */; };
+		4684386F2578C6860016E8C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4684386D2578C6860016E8C5 /* LaunchScreen.storyboard */; };
+		4684387A2578C6860016E8C5 /* BoxrificeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468438792578C6860016E8C5 /* BoxrificeTests.swift */; };
+		468438852578C6860016E8C5 /* BoxrificeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468438842578C6860016E8C5 /* BoxrificeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		468438762578C6860016E8C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 468438572578C6830016E8C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4684385E2578C6830016E8C5;
+			remoteInfo = Boxrifice;
+		};
+		468438812578C6860016E8C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 468438572578C6830016E8C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4684385E2578C6830016E8C5;
+			remoteInfo = Boxrifice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		463152702580A26B00DE43A2 /* EndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
+		4631527B25812EB800DE43A2 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		4684385F2578C6830016E8C5 /* Boxrifice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boxrifice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		468438622578C6830016E8C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		468438642578C6830016E8C5 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		468438662578C6830016E8C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		468438692578C6830016E8C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4684386B2578C6860016E8C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4684386E2578C6860016E8C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		468438702578C6860016E8C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		468438752578C6860016E8C5 /* BoxrificeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxrificeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		468438792578C6860016E8C5 /* BoxrificeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxrificeTests.swift; sourceTree = "<group>"; };
+		4684387B2578C6860016E8C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		468438802578C6860016E8C5 /* BoxrificeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxrificeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		468438842578C6860016E8C5 /* BoxrificeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxrificeUITests.swift; sourceTree = "<group>"; };
+		468438862578C6860016E8C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4684385C2578C6830016E8C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		468438722578C6860016E8C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4684387D2578C6860016E8C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		468438562578C6830016E8C5 = {
+			isa = PBXGroup;
+			children = (
+				468438612578C6830016E8C5 /* Boxrifice */,
+				468438782578C6860016E8C5 /* BoxrificeTests */,
+				468438832578C6860016E8C5 /* BoxrificeUITests */,
+				468438602578C6830016E8C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		468438602578C6830016E8C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4684385F2578C6830016E8C5 /* Boxrifice.app */,
+				468438752578C6860016E8C5 /* BoxrificeTests.xctest */,
+				468438802578C6860016E8C5 /* BoxrificeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		468438612578C6830016E8C5 /* Boxrifice */ = {
+			isa = PBXGroup;
+			children = (
+				468438622578C6830016E8C5 /* AppDelegate.swift */,
+				468438642578C6830016E8C5 /* art.scnassets */,
+				4631527B25812EB800DE43A2 /* InitialViewController.swift */,
+				468438662578C6830016E8C5 /* ViewController.swift */,
+				463152702580A26B00DE43A2 /* EndViewController.swift */,
+				468438682578C6830016E8C5 /* Main.storyboard */,
+				4684386B2578C6860016E8C5 /* Assets.xcassets */,
+				4684386D2578C6860016E8C5 /* LaunchScreen.storyboard */,
+				468438702578C6860016E8C5 /* Info.plist */,
+			);
+			path = Boxrifice;
+			sourceTree = "<group>";
+		};
+		468438782578C6860016E8C5 /* BoxrificeTests */ = {
+			isa = PBXGroup;
+			children = (
+				468438792578C6860016E8C5 /* BoxrificeTests.swift */,
+				4684387B2578C6860016E8C5 /* Info.plist */,
+			);
+			path = BoxrificeTests;
+			sourceTree = "<group>";
+		};
+		468438832578C6860016E8C5 /* BoxrificeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				468438842578C6860016E8C5 /* BoxrificeUITests.swift */,
+				468438862578C6860016E8C5 /* Info.plist */,
+			);
+			path = BoxrificeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4684385E2578C6830016E8C5 /* Boxrifice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 468438892578C6860016E8C5 /* Build configuration list for PBXNativeTarget "Boxrifice" */;
+			buildPhases = (
+				4684385B2578C6830016E8C5 /* Sources */,
+				4684385C2578C6830016E8C5 /* Frameworks */,
+				4684385D2578C6830016E8C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Boxrifice;
+			productName = Boxrifice;
+			productReference = 4684385F2578C6830016E8C5 /* Boxrifice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		468438742578C6860016E8C5 /* BoxrificeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4684388C2578C6860016E8C5 /* Build configuration list for PBXNativeTarget "BoxrificeTests" */;
+			buildPhases = (
+				468438712578C6860016E8C5 /* Sources */,
+				468438722578C6860016E8C5 /* Frameworks */,
+				468438732578C6860016E8C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				468438772578C6860016E8C5 /* PBXTargetDependency */,
+			);
+			name = BoxrificeTests;
+			productName = BoxrificeTests;
+			productReference = 468438752578C6860016E8C5 /* BoxrificeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4684387F2578C6860016E8C5 /* BoxrificeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4684388F2578C6860016E8C5 /* Build configuration list for PBXNativeTarget "BoxrificeUITests" */;
+			buildPhases = (
+				4684387C2578C6860016E8C5 /* Sources */,
+				4684387D2578C6860016E8C5 /* Frameworks */,
+				4684387E2578C6860016E8C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				468438822578C6860016E8C5 /* PBXTargetDependency */,
+			);
+			name = BoxrificeUITests;
+			productName = BoxrificeUITests;
+			productReference = 468438802578C6860016E8C5 /* BoxrificeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		468438572578C6830016E8C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					4684385E2578C6830016E8C5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					468438742578C6860016E8C5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 4684385E2578C6830016E8C5;
+					};
+					4684387F2578C6860016E8C5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 4684385E2578C6830016E8C5;
+					};
+				};
+			};
+			buildConfigurationList = 4684385A2578C6830016E8C5 /* Build configuration list for PBXProject "Boxrifice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 468438562578C6830016E8C5;
+			productRefGroup = 468438602578C6830016E8C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4684385E2578C6830016E8C5 /* Boxrifice */,
+				468438742578C6860016E8C5 /* BoxrificeTests */,
+				4684387F2578C6860016E8C5 /* BoxrificeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4684385D2578C6830016E8C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468438652578C6830016E8C5 /* art.scnassets in Resources */,
+				4684386F2578C6860016E8C5 /* LaunchScreen.storyboard in Resources */,
+				4684386C2578C6860016E8C5 /* Assets.xcassets in Resources */,
+				4684386A2578C6830016E8C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		468438732578C6860016E8C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4684387E2578C6860016E8C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4684385B2578C6830016E8C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463152712580A26B00DE43A2 /* EndViewController.swift in Sources */,
+				468438672578C6830016E8C5 /* ViewController.swift in Sources */,
+				468438632578C6830016E8C5 /* AppDelegate.swift in Sources */,
+				4631527C25812EB800DE43A2 /* InitialViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		468438712578C6860016E8C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4684387A2578C6860016E8C5 /* BoxrificeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4684387C2578C6860016E8C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468438852578C6860016E8C5 /* BoxrificeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		468438772578C6860016E8C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4684385E2578C6830016E8C5 /* Boxrifice */;
+			targetProxy = 468438762578C6860016E8C5 /* PBXContainerItemProxy */;
+		};
+		468438822578C6860016E8C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4684385E2578C6830016E8C5 /* Boxrifice */;
+			targetProxy = 468438812578C6860016E8C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		468438682578C6830016E8C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				468438692578C6830016E8C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4684386D2578C6860016E8C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4684386E2578C6860016E8C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		468438872578C6860016E8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		468438882578C6860016E8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4684388A2578C6860016E8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55R3DXZ7DV;
+				INFOPLIST_FILE = Boxrifice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CS50-final-project.Boxrifice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4684388B2578C6860016E8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55R3DXZ7DV;
+				INFOPLIST_FILE = Boxrifice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CS50-final-project.Boxrifice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4684388D2578C6860016E8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55R3DXZ7DV;
+				INFOPLIST_FILE = BoxrificeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CS50-final-project.BoxrificeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boxrifice.app/Boxrifice";
+			};
+			name = Debug;
+		};
+		4684388E2578C6860016E8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55R3DXZ7DV;
+				INFOPLIST_FILE = BoxrificeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CS50-final-project.BoxrificeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boxrifice.app/Boxrifice";
+			};
+			name = Release;
+		};
+		468438902578C6860016E8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55R3DXZ7DV;
+				INFOPLIST_FILE = BoxrificeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CS50-final-project.BoxrificeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Boxrifice;
+			};
+			name = Debug;
+		};
+		468438912578C6860016E8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55R3DXZ7DV;
+				INFOPLIST_FILE = BoxrificeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CS50-final-project.BoxrificeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Boxrifice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4684385A2578C6830016E8C5 /* Build configuration list for PBXProject "Boxrifice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468438872578C6860016E8C5 /* Debug */,
+				468438882578C6860016E8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		468438892578C6860016E8C5 /* Build configuration list for PBXNativeTarget "Boxrifice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4684388A2578C6860016E8C5 /* Debug */,
+				4684388B2578C6860016E8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4684388C2578C6860016E8C5 /* Build configuration list for PBXNativeTarget "BoxrificeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4684388D2578C6860016E8C5 /* Debug */,
+				4684388E2578C6860016E8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4684388F2578C6860016E8C5 /* Build configuration list for PBXNativeTarget "BoxrificeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468438902578C6860016E8C5 /* Debug */,
+				468438912578C6860016E8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 468438572578C6830016E8C5 /* Project object */;
+}
